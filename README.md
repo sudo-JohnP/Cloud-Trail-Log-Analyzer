@@ -1,1 +1,1 @@
-# Cloud-Trail-Log-Analyzer
+# Cloud Trail Log Analyzer
