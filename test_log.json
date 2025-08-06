@@ -1,12 +1,52 @@
-
 {
-  "eventTime": "2025-08-06T13:37:00Z",
-  "eventName": "ConsoleLogin",
-  "sourceIPAddress": "5.255.255.70",
-  "userIdentity": {
-    "arn": "arn:aws:iam::123456789012:user/HackerUser"
-  },
-  "additionalEventData": {
-    "MFAUsed": "No"
-  }
+  "Records": [
+    {
+      "eventTime": "2025-08-06T13:37:00Z",
+      "eventName": "ConsoleLogin",
+      "sourceIPAddress": "REPLACETHIS",
+      "userIdentity": {
+        "arn": "arn:aws:iam::123456789012:user/HackerUser"
+      },
+      "additionalEventData": {
+        "MFAUsed": "No"
+      }
+    },
+    {
+      "eventVersion": "1.11",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "REPLACETHIS",
+        "arn": "arn:aws:iam::REPLACETHIS",
+        "accountId": "REPLACETHIS",
+        "accessKeyId": "REPLACETHIS",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2025-08-06T12:31:13Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2025-08-06T12:37:48Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListFunctions20150331",
+      "awsRegion": "ap-northeast-1",
+      "sourceIPAddress": "173.79.234.31",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "790f62f5-9263-4dc0-b252-4bf2da93c3c3",
+      "eventID": "524679c8-00be-48e0-8a98-f73dc6e879b8",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "recipientAccountId": "REPLACETHIS",
+      "eventCategory": "Management",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "lambda.ap-northeast-1.amazonaws.com"
+      },
+      "sessionCredentialFromConsole": "true"
+    }
+  ]
 }
