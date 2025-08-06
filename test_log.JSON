@@ -1,7 +1,3 @@
-''' How I Tested the Detection Logic
-
-- To demonstrate the tool's functionality, I added a fake suspicious event to a test log:
-'''
 
 {
   "eventTime": "2025-08-06T13:37:00Z",
