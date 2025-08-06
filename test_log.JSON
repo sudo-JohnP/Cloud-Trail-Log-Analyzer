@@ -1,0 +1,16 @@
+# How I Tested the Detection Logic
+
+To demonstrate the tool's functionality, I added a fake suspicious event to a test log:
+
+```json
+{
+  "eventTime": "2025-08-06T13:37:00Z",
+  "eventName": "ConsoleLogin",
+  "sourceIPAddress": "5.255.255.70",
+  "userIdentity": {
+    "arn": "arn:aws:iam::123456789012:user/HackerUser"
+  },
+  "additionalEventData": {
+    "MFAUsed": "No"
+  }
+}
