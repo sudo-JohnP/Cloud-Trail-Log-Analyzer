@@ -43,9 +43,9 @@ This project showcases my growing experience in cloud security, automation, and 
 
 ## 📂 File Structure
 
-| CloudTrail-Log-Analyzer                       |
-|--------------|-------------------------------|
-| analyzer.py        | Main script to fetch, extract, analyze logs       |
-| test_analyzer.py  | Script to run test_log.json (includes fake suspicious event)     |
-| test_log.json     | Purposefully Suspicious CloudTrail log for testing   |
-| README.md         | You're reading it haha     |
+| CloudTrail-Log-Analyzer                                                          |
+|-------------------|--------------------------------------------------------------|
+| analyzer.py       | Main script to fetch, extract, analyze logs                  |
+| test_analyzer.py  | Script to run test_log.json (includes fake suspicious event) |
+| test_log.json     | Purposefully Suspicious CloudTrail log for testing           |
+| README.md         | You're reading it haha                                       |
