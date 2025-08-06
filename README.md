@@ -45,7 +45,7 @@ This project showcases my growing experience in cloud security, automation, and 
 
 ### CloudTrail-Log-Analyzer 
 
-- analyzer.py -- Main script to fetch, extract, analyze logs
+- [analyzer.py](https://github.com/sudo-JohnP/CloudTrail-Log-Analyzer/blob/main/analyzer.py) -- Main script to fetch, extract, analyze logs
 - test_analyzer.py -- Script to run test_log.json (includes fake suspicious event)
 - test_log.json -- Purposefully Suspicious CloudTrail log for testing     
 - README.md 
