@@ -30,7 +30,7 @@ This project showcases my growing experience in cloud security, automation, and 
 
 ---
 
-## 🛠️ Tools & Services
+##  Tools & Services
 
 | Category     | Tools / Services               |
 |--------------|-------------------------------|
