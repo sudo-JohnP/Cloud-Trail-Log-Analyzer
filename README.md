@@ -79,7 +79,7 @@ The script flags:
 
 ---
 
-This shows how Python can be used to monitor AWS environments for potential security risks — a key concept in cloud security automation.
+This shows how Python can be used to monitor AWS environments for potential security risks. A key concept in cloud security automation.
 
 
 ---
