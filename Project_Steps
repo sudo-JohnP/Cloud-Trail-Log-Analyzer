@@ -1,0 +1,48 @@
+# Project Walkthrough
+
+This file outlines the step-by-step process I followed to build and test the CloudTrail Log Analyzer using Python and AWS.
+
+---
+
+## Project Overview
+
+The goal of this project was to:
+
+- Retrieve AWS CloudTrail logs from an S3 bucket
+- Detect suspicious behavior (logins from unexpected locations, no MFA, root usage)
+- Geolocate suspicious IPs
+- Output results to a `.txt` file
+
+---
+
+## 1. Project Setup
+
+### Tools & Services Used
+- AWS CloudTrail
+- AWS S3
+- IAM for user access
+- Python (Boto3, Requests, gzip, json, datetime)
+- VS Code
+
+### 🔑 IAM Configuration
+Created a new IAM user with programmatic access and permissions:
+- `s3:ListBucket`
+- `s3:GetObject`
+- `cloudtrail:DescribeTrails`
+- `cloudtrail:GetTrailStatus`
+
+---
+
+## 2. Log Retrieval
+
+The script uses `boto3` to:
+- List CloudTrail logs from the S3 bucket
+- Download the most recent `.gz` log file
+- Extract and parse it as JSON
+
+### 📸 Screenshot: Log Retrieved
+_Add screenshot here of a successfully downloaded and extracted log file in terminal._
+
+```bash
+Latest log file: AWSLogs/.../log.json.gz
+Log extracted to: latest_log.json
